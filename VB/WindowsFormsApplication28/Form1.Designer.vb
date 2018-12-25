@@ -28,8 +28,8 @@ Namespace WindowsFormsApplication28
 			Me.components = New System.ComponentModel.Container()
 			Me.vGridControl1 = New DevExpress.XtraVerticalGrid.VGridControl()
 			Me.carsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.carsDBDataSet = New WindowsFormsApplication28.CarsDBDataSet()
-			Me.rowID = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
+            Me.carsDBDataSet = New CarsDBDataSet()
+            Me.rowID = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
 			Me.rowTrademark = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
 			Me.rowModel = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
 			Me.rowHP = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
@@ -44,8 +44,8 @@ Namespace WindowsFormsApplication28
 			Me.rowHyperlink = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
 			Me.rowPrice = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
 			Me.editorRow1 = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
-			Me.carsTableAdapter = New WindowsFormsApplication28.CarsDBDataSetTableAdapters.CarsTableAdapter()
-			CType(Me.vGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.carsTableAdapter = New CarsDBDataSetTableAdapters.CarsTableAdapter()
+            CType(Me.vGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.carsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.carsDBDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
@@ -190,8 +190,8 @@ Namespace WindowsFormsApplication28
 		Private WithEvents vGridControl1 As DevExpress.XtraVerticalGrid.VGridControl
 		Private carsDBDataSet As CarsDBDataSet
 		Private carsBindingSource As System.Windows.Forms.BindingSource
-		Private carsTableAdapter As WindowsFormsApplication28.CarsDBDataSetTableAdapters.CarsTableAdapter
-		Private rowID As DevExpress.XtraVerticalGrid.Rows.EditorRow
+        Private carsTableAdapter As CarsDBDataSetTableAdapters.CarsTableAdapter
+        Private rowID As DevExpress.XtraVerticalGrid.Rows.EditorRow
 		Private rowTrademark As DevExpress.XtraVerticalGrid.Rows.EditorRow
 		Private rowModel As DevExpress.XtraVerticalGrid.Rows.EditorRow
 		Private rowHP As DevExpress.XtraVerticalGrid.Rows.EditorRow
